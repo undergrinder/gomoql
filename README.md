@@ -9,10 +9,11 @@ The repo needs a refactor, but I am not plan to do it, it is just a useless curi
 
 ## Install
 Tested on:
-    | OS      | Version                                                                                                                     |
-    |---------|-----------------------------------------------------------------------------------------------------------------------------|
-    | Windows | PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit                                                                  |
-    | Linux   | PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit |
+
+| OS      | Version                                                                                                                     |
+|---------|-----------------------------------------------------------------------------------------------------------------------------|
+| Windows | PostgreSQL 13.2, compiled by Visual C++ build 1914, 64-bit                                                                  |
+| Linux   | PostgreSQL 15.2 (Debian 15.2-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit |
 
 Run the DDL.sql first, then the other files in any order. The DDL contains a schema creation statement, you can create a separate database for the code if you would like to.
 
